@@ -13,7 +13,7 @@
   and never activates a vehicle; it maps a deployment's legal facts to a
   readiness verdict and a human-authority sign-off requirement. Integers, not
   floats (cover in JPY, dates yyyymmdd, SAE level int)."
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 (def default-today 20260627)
 

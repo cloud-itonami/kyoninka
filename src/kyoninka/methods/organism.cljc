@@ -10,7 +10,7 @@
 
   Run (classpath spans this actor + the kototama lib):
     clojure -M -m kyoninka.methods.organism"
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [kototama.organism :as org]
             [kototama.leash :as leash]
             [kyoninka.methods.procedure :as p]))
