@@ -14,7 +14,7 @@
   an operator step. Run:
 
     clojure -M -m kyoninka.methods.site-gen"
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [kyoninka.methods.procedure :as p]
             #?(:clj [clojure.java.io :as io])))
 
