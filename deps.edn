@@ -17,7 +17,7 @@
          :git/sha "65899deed4fb9cfa3cdfed9d21130c91982d8cd3"}}
  :aliases
  {:dev {}
-  ;; clojure -M:dev:run → drive robotaxi deployment-permitting through one actor
+  ;; kbb -M:dev:run → drive robotaxi deployment-permitting through one actor
   :run {:main-opts ["-m" "kyoninka.sim"]}
   :test {:extra-paths ["test"]
          :extra-deps {io.github.cognitect-labs/test-runner

@@ -1,7 +1,7 @@
 (ns kyoninka.methods.procedure-test
   "The permitting contract as executable tests — the platform-side mirror of the
   langgraph PermitGovernor contract in orgs/etzhayyim/com-etzhayyim-kyoninka. Run:
-    clojure -M:test"
+    kbb -M:test"
   (:require [clojure.test :refer [deftest is run-tests]]
             [kyoninka.methods.procedure :as p]))
 
