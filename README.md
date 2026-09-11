@@ -71,9 +71,9 @@ an `:jurisdiction/register` ground datom, not a code change.
 ## Run
 
 ```bash
-clojure -M:dev:run     # drive deployments through one DeploymentActor
-clojure -M:dev:test    # the permitting contract as executable tests
-clojure -M:lint        # clj-kondo (errors fail)
+kbb -M:dev:run     # drive deployments through one DeploymentActor
+kbb -M:dev:test    # the permitting contract as executable tests
+kbb -M:lint        # clj-kondo (errors fail)
 ```
 
 Demo walks: ingest a new jurisdiction+deployment → `dp-jp` clean L4 (governor

@@ -13,7 +13,7 @@
   asset, inline CSS, a non-adjudicating disclaimer on every page, deployment is
   an operator step. Run:
 
-    clojure -M -m kyoninka.methods.site-gen"
+    kbb -M -m kyoninka.methods.site-gen"
   (:require [kotoba.lang.text :as str]
             [kyoninka.methods.procedure :as p]
             #?(:clj [clojure.java.io :as io])))
