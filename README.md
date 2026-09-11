@@ -87,14 +87,14 @@ only permitting-genealogy ledger → the same contract on `DatomicStore`.
 
 | File | Actor / role |
 |---|---|
-| `src/kyoninka/store.cljc` | SSoT — jurisdictions · deployments · permits · insurance · filings; `MemStore` ‖ `DatomicStore` (langchain.db `:db-api`); append-only ledger |
-| `src/kyoninka/regllm.cljc` | **reg-LLM** — the contained intelligence node (regulatory advisor); mock ‖ real LLM via `langchain.model` |
-| `src/kyoninka/governor.cljc` | **PermitGovernor** — independent legal invariants; HOLD on missing/expired permits, under-insurance, over-level, missing filings, no-actuation |
-| `src/kyoninka/phase.cljc` | Phase 0→3 staged rollout (survey-only → supervised); launch is never auto |
-| `src/kyoninka/deployment.cljc` | **DeploymentActor** — the langgraph-clj StateGraph (1 run = 1 op) |
-| `src/kyoninka/sim.cljc` | demo driver |
-| `test/kyoninka/governor_contract_test.clj` | the permitting invariant, executable |
-| `test/kyoninka/store_contract_test.clj` | `MemStore ≡ DatomicStore` |
+| `src/kyoninka/store.cljk` | SSoT — jurisdictions · deployments · permits · insurance · filings; `MemStore` ‖ `DatomicStore` (langchain.db `:db-api`); append-only ledger |
+| `src/kyoninka/regllm.cljk` | **reg-LLM** — the contained intelligence node (regulatory advisor); mock ‖ real LLM via `langchain.model` |
+| `src/kyoninka/governor.cljk` | **PermitGovernor** — independent legal invariants; HOLD on missing/expired permits, under-insurance, over-level, missing filings, no-actuation |
+| `src/kyoninka/phase.cljk` | Phase 0→3 staged rollout (survey-only → supervised); launch is never auto |
+| `src/kyoninka/deployment.cljk` | **DeploymentActor** — the langgraph-clj StateGraph (1 run = 1 op) |
+| `src/kyoninka/sim.cljk` | demo driver |
+| `test/kyoninka/governor_contract_test.cljk` | the permitting invariant, executable |
+| `test/kyoninka/store_contract_test.cljk` | `MemStore ≡ DatomicStore` |
 
 ## Status
 
