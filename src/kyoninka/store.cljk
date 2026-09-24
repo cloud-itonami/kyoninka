@@ -30,7 +30,7 @@
   provenance, the property a SaaS or a mutable DB row can't give you. The actor
   is observe→recommend only: it never *grants* a permit and never activates a
   vehicle."
-  (:require #?(:clj  [clojure.edn :as edn]
+  (:require #?(:clj  [kotoba.lang.edn :as edn]
                :cljs [cljs.reader :as edn])
             [kotoba.lang.text :as str]
             [langchain.db :as d]))
