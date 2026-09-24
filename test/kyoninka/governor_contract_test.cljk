@@ -3,7 +3,7 @@
   safety_contract_test / itonami's governor_contract_test. Invariant: the actor
   never records a launch readiness the PermitGovernor would reject, never auto-
   authorizes a public-road go-live, and always records observations."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [langgraph.graph :as g]
             [kyoninka.store :as store]
             [kyoninka.regllm :as regllm]

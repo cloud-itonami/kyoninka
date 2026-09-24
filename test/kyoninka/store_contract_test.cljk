@@ -3,7 +3,7 @@
   reads must agree, and the actor's launch/permit verdicts must be identical on
   either backend — the property that lets the kotoba-server pod (kotobase.net)
   drop in via langchain.kotoba-db with the same record."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [langgraph.graph :as g]
             [kyoninka.store :as store]
             [kyoninka.deployment :as dep]))

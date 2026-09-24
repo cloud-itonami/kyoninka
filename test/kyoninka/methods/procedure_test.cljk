@@ -2,7 +2,7 @@
   "The permitting contract as executable tests — the platform-side mirror of the
   langgraph PermitGovernor contract in orgs/etzhayyim/com-etzhayyim-kyoninka. Run:
     kbb -M:test"
-  (:require [clojure.test :refer [deftest is run-tests]]
+  (:require [kotoba.test :refer [deftest is run-tests]]
             [kyoninka.methods.procedure :as p]))
 
 (deftest clean-jp-deployment-escalates-to-authority
