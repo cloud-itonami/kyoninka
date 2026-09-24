@@ -16,7 +16,7 @@
     kbb -M -m kyoninka.methods.site-gen"
   (:require [kotoba.lang.text :as str]
             [kyoninka.methods.procedure :as p]
-            #?(:clj [clojure.java.io :as io])))
+            #?(:clj [kotoba.io :as io])))
 
 (def BASE-DEFAULT "https://etzhayyim.com/kyoninka")
 
