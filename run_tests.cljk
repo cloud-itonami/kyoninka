@@ -1,4 +1,4 @@
-(require '[clojure.test :as t])
+(require '[kotoba.test :as t])
 
 (doseq [ns-sym '[kyoninka.governor-contract-test
                   kyoninka.store-contract-test

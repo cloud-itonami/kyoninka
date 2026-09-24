@@ -1,7 +1,7 @@
 (ns kyoninka.methods.organism-test
   "kyoninka autonomous-publication cell tests (on the kototama common lib). Run:
     kbb -M:test"
-  (:require [clojure.test :refer [deftest is run-tests]]
+  (:require [kotoba.test :refer [deftest is run-tests]]
             [kototama.organism :as org]
             [kyoninka.methods.organism :as k]))
 
